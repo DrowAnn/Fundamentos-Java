@@ -1,5 +1,6 @@
 package co.com.ps;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
@@ -155,8 +156,34 @@ public class Main {
 //        for (int i = 0; i < 10; i = i + 5) {
 //            System.out.println("Numero " + i);
 //        }
-
-        //Ciclos Ejercicio Uno
+//
+//        //Ciclos Ejercicio Uno
+//        int limite;
+//        Scanner teclado = new Scanner(System.in);
+//
+//        System.out.println("Digite el limite para el conteo");
+//        limite = teclado.nextInt();
+//
+//        for (int i = 1; i <= limite; i++) {
+//            System.out.println(i);
+//        }
+//
+//        //Ciclos Ejercicio Dos
+//        int count = 200;
+//
+//        while (count <= 250) {
+//            System.out.println(count);
+//            count += 2;
+//        }
+//
+//        //Ciclos Ejercicio Tres
+//        String palabra = "";
+//        Scanner teclado = new Scanner(System.in);
+//
+//        while (!palabra.toLowerCase().equals("salir")) {
+//            System.out.println("Digite una palabra");
+//            palabra = teclado.next();
+//        }
 
     }
 }
