@@ -184,6 +184,57 @@ public class Main {
 //            System.out.println("Digite una palabra");
 //            palabra = teclado.next();
 //        }
+//
+//        //Inegrador Ejercicio Uno
+//        String nombre = "";
+//        int dni = 1, edad = 0;
+//        Scanner teclado = new Scanner(System.in);
+//
+//        while (dni != 0 && !nombre.equalsIgnoreCase("salir")) {
+//            System.out.println("Digite el DNI:");
+//            dni = teclado.nextInt();
+//            System.out.println("Digite el Nombre: ");
+//            nombre = teclado.next();
+//
+//            if (dni != 0){
+//                System.out.println("Digite la Edad: ");
+//                edad = teclado.nextInt();
+//                System.out.println("Categoria asignada a " + nombre + ": ");
+//                if (edad > 50) {
+//                    System.out.println("Adultos Mayores");
+//                } else if (edad >= 31) {
+//                    System.out.println("Adultos");
+//                } else if (edad >= 18) {
+//                    System.out.println("Juveniles");
+//                } else if (edad >= 11) {
+//                    System.out.println("Menores B");
+//                } else if (edad >= 6 && edad <= 10) {
+//                    System.out.println("Menores A");
+//                } else {
+//                    System.out.println("Ninguna, edad inferior al minimo permitido");
+//                }
+//            }
+//        }
+//
+//        //Ciclos Ejercicio Cuatro
+//        Scanner teclado = new Scanner(System.in);
+//        int tamano;
+//        String line;
+//
+//        System.out.println("Digite el numero de lineas para el arbol:");
+//        tamano = teclado.nextInt();
+//
+//        for (int i = 1; i <= tamano; i++){
+//            line = "";
+//            for (int j = 1; j < tamano + i; j++){
+//                if (j <= tamano - i) {
+//                    line = line + " ";
+//                } else {
+//                    line = line + "*";
+//                }
+//            }
+//            System.out.println(line);
+//        }
 
     }
 }
